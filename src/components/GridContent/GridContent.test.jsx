@@ -9,7 +9,9 @@ describe('<GridContent />', () => {
   });
 
   it('Should render grid content background', () => {
-    const { container } = renderTheme(<GridContent {...mock} background={undefined} />);
+    const { container } = renderTheme(
+      <GridContent {...mock} background={undefined} />,
+    );
     expect(container).toMatchSnapshot();
   });
 });
