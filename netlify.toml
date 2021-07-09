@@ -2,5 +2,5 @@
   command = "npm run deploy-static"
   publish = "out"
 
-[[plugins]]
+[plugins]
   package = "@netlify/plugin-nextjs"
