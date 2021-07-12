@@ -3,4 +3,5 @@
   publish = "out"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs/10.0.7"
+  package = "@netlify/plugin-nextjs"
+  version = "10.0.7"
