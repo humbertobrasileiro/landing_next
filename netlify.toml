@@ -1,5 +1,7 @@
 [build]
   command = "npm run deploy-static"
+  functions = "netlify/functions"
+  publish = "out"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
