@@ -5,3 +5,4 @@ export default {
 };
 
 // https://practical-hopper-b6bac5.netlify.app/#contact
+// vercel e netlify
