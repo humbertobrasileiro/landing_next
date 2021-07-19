@@ -1,37 +1,42 @@
-import { screen } from '@testing-library/dom';
-import { MenuLink } from '.';
+import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
+import { MenuLink } from '.';
 
 describe('<MenuLink />', () => {
-  it('Should render a link', () => {
+  it('should render a link', () => {
     renderTheme(<MenuLink link="http://localhost">Children</MenuLink>);
-
     expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
       'target',
       '_self',
     );
   });
 
-  it('Should render a open in a new tab', () => {
+  it('should render a internal link', () => {
+    renderTheme(<MenuLink link="/localhost">Children</MenuLink>);
+    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
+      'target',
+      '_self',
+    );
+  });
+
+  it('should render open in a new tab', () => {
     renderTheme(
       <MenuLink link="http://localhost" newTab={true}>
         Children
       </MenuLink>,
     );
-
     expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
       'target',
       '_blank',
     );
   });
 
-  it('Should render a match in line snapshot', () => {
+  it('should render open in a new tab', () => {
     const { container } = renderTheme(
       <MenuLink link="http://localhost" newTab={false}>
         Children
       </MenuLink>,
     );
-
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         display: block;
