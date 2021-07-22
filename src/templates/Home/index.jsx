@@ -11,6 +11,8 @@ import { Base } from '../Base';
 import config from '../../config';
 import { theme } from '../../styles/theme';
 
+// estou testando o deploy
+
 function Home({ data }) {
   const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, srcImg } = menu;
