@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import { Container as TextComponent } from '../../components/TextComponent/styles';
-import { Container as SectionContainer } from '../../components/SectionContainer/styles';
+import { Container as TextComponent } from '../TextComponent/styles';
+import { Container as SectionContainer } from '../SectionContainer/styles';
 
 export const Container = styled.footer`
   ${({ theme }) => css`
