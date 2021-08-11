@@ -12,7 +12,8 @@
     "test": "jest",
     "deploy-static": "npm run build && npm run export",
     "lint": "eslint src --max-warnings=0",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.28.0",
@@ -47,6 +48,12 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.2.1"
   },
+  "lint-staged": {
+    "src/**/*": [
+      "npm run lint -- --fix",
+      "npm test -- --findRelatedTests --bail"
+    ]
+  },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": ".eslintrc.js",
   "repository": {
@@ -58,11 +65,5 @@
   "bugs": {
     "url": "https://github.com/humbertobrasileiro/landing_next/issues"
   },
-  "homepage": "https://github.com/humbertobrasileiro/landing_next#readme",
-  "lint-staged": {
-    "src/**/*0": [
-      "npm run lint -- --fix",
-      "npm test -- --findRelatedTests --bail"
-    ]
-  }
+  "homepage": "https://github.com/humbertobrasileiro/landing_next#readme"
 }
