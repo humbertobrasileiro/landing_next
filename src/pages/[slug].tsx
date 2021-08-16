@@ -24,7 +24,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps<HomeProps> = async (ctx) => {
   let data = null;
-
   try {
     data = await loadPages(ctx.params.slug as string);
   } catch (e) {
