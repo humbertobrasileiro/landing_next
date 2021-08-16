@@ -1,5 +1,5 @@
 import * as Styled from './styles';
-import { MenuLink, MenuLinkProps } from '../MenuLink/index';
+import { MenuLink, MenuLinkProps } from '../MenuLink';
 
 export type NavLinksProps = {
   links?: MenuLinkProps[];

@@ -1,9 +1,9 @@
-import { screen } from '@testing-library/dom';
-import { SectionBackground } from '.';
+import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
+import { SectionBackground } from '.';
 
 describe('<SectionBackground />', () => {
-  it('Should render with background dark', () => {
+  it('should render with background dark', () => {
     const { container } = renderTheme(
       <SectionBackground background={true}>
         <h1>Children</h1>
@@ -13,7 +13,7 @@ describe('<SectionBackground />', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('Should render with background light', () => {
+  it('should render with background light', () => {
     const { container } = renderTheme(
       <SectionBackground>
         <h1>Children</h1>

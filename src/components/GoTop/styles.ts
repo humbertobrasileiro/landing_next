@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
 
 export const Container = styled.a`
@@ -14,6 +13,5 @@ export const Container = styled.a`
     bottom: 2rem;
     right: 2rem;
     z-index: 6;
-    opacity: 0.7;
   `}
 `;

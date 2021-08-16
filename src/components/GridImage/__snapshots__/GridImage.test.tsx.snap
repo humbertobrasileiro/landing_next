@@ -1,6 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridImage /> Should render with background 1`] = `
+exports[`<GridImage /> should render with background 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c5 {
   font-size: 2.4rem;
 }
@@ -31,42 +58,15 @@ exports[`<GridImage /> Should render with background 1`] = `
   transform: scale(1.2) rotate(10deg);
 }
 
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c3 {
-  color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: uppercase;
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
 }
 
 @media (max-width:768px) {
   .c6 {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width:768px) {
-  .c3 {
-    font-size: 4.0rem;
   }
 }
 
@@ -89,7 +89,7 @@ exports[`<GridImage /> Should render with background 1`] = `
         <div
           class="c4 c5"
         >
-          Minha descrição de dados para a montagem da tela
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
         </div>
         <div
           class="c6"
@@ -100,7 +100,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 1"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=1"
+              src="https://source.unsplash.com/random/800x800?r=1"
             />
           </div>
           <div
@@ -109,7 +109,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 2"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=2"
+              src="https://source.unsplash.com/random/800x800?r=2"
             />
           </div>
           <div
@@ -118,7 +118,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 3"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=3"
+              src="https://source.unsplash.com/random/800x800?r=3"
             />
           </div>
           <div
@@ -127,7 +127,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 4"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=4"
+              src="https://source.unsplash.com/random/800x800?r=4"
             />
           </div>
           <div
@@ -136,7 +136,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 5"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=5"
+              src="https://source.unsplash.com/random/800x800?r=5"
             />
           </div>
           <div
@@ -145,7 +145,7 @@ exports[`<GridImage /> Should render with background 1`] = `
             <img
               alt="Teste 6"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=6"
+              src="https://source.unsplash.com/random/800x800?r=6"
             />
           </div>
         </div>
@@ -155,7 +155,34 @@ exports[`<GridImage /> Should render with background 1`] = `
 </div>
 `;
 
-exports[`<GridImage /> Should render without background 1`] = `
+exports[`<GridImage /> should render without background 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c5 {
   font-size: 2.4rem;
 }
@@ -186,42 +213,15 @@ exports[`<GridImage /> Should render without background 1`] = `
   transform: scale(1.2) rotate(10deg);
 }
 
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c3 {
-  color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: uppercase;
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
 }
 
 @media (max-width:768px) {
   .c6 {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width:768px) {
-  .c3 {
-    font-size: 4.0rem;
   }
 }
 
@@ -244,7 +244,7 @@ exports[`<GridImage /> Should render without background 1`] = `
         <div
           class="c4 c5"
         >
-          Minha descrição de dados para a montagem da tela
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
         </div>
         <div
           class="c6"
@@ -255,7 +255,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 1"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=1"
+              src="https://source.unsplash.com/random/800x800?r=1"
             />
           </div>
           <div
@@ -264,7 +264,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 2"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=2"
+              src="https://source.unsplash.com/random/800x800?r=2"
             />
           </div>
           <div
@@ -273,7 +273,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 3"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=3"
+              src="https://source.unsplash.com/random/800x800?r=3"
             />
           </div>
           <div
@@ -282,7 +282,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 4"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=4"
+              src="https://source.unsplash.com/random/800x800?r=4"
             />
           </div>
           <div
@@ -291,7 +291,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 5"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=5"
+              src="https://source.unsplash.com/random/800x800?r=5"
             />
           </div>
           <div
@@ -300,7 +300,7 @@ exports[`<GridImage /> Should render without background 1`] = `
             <img
               alt="Teste 6"
               class="c8"
-              src="https://source.unsplash.com/random/800x600?r=6"
+              src="https://source.unsplash.com/random/800x800?r=6"
             />
           </div>
         </div>

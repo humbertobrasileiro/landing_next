@@ -23,9 +23,7 @@ describe('<Menu />', () => {
   });
 
   it('should render menu mobile and button for open and close the menu', () => {
-    const { container } = renderTheme(
-      <Menu links={linksMock} logoData={logoData} />,
-    );
+    renderTheme(<Menu links={linksMock} logoData={logoData} />);
 
     const button = screen.getByLabelText('Open/Close menu');
     const menuContainer = button.nextSibling;
@@ -51,7 +49,6 @@ describe('<Menu />', () => {
       media: theme.media.lteMedium,
     });
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument();
-    expect(container).toMatchSnapshot();
   });
 
   it('should not render links', () => {

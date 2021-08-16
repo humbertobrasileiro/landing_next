@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { mapSections } from './map-sections';
-import { mapMenu } from './map-menu';
 import { PageData } from '../templates/Home';
+import { mapMenu } from './map-menu';
+import { mapSections } from './map-sections';
 
 export const mapData = (pagesData = [{}] as any): PageData[] => {
   return pagesData.map((data: any): PageData => {

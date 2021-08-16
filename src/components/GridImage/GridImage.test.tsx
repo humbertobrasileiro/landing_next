@@ -1,14 +1,15 @@
-import { GridImage } from '.';
 import { renderTheme } from '../../styles/render-theme';
+import { GridImage } from '.';
+
 import mock from './mock';
 
 describe('<GridImage />', () => {
-  it('Should render with background', () => {
+  it('should render with background', () => {
     const { container } = renderTheme(<GridImage {...mock} />);
     expect(container).toMatchSnapshot();
   });
 
-  it('Should render without background', () => {
+  it('should render without background', () => {
     const { container } = renderTheme(
       <GridImage {...mock} background={undefined} />,
     );

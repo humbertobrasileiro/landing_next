@@ -12,8 +12,8 @@ describe('map-menu', () => {
   it('should map menu to match keys and values required', () => {
     const menu = mapMenu({
       open_in_new_tab: false,
-      logo_link: '#home',
       logo_text: 'Landing Page',
+      logo_link: '#home',
       menu: [
         {
           open_in_new_tab: false,

@@ -22,19 +22,23 @@ export const Container = styled.div<MenuVisible>`
     border-bottom: ${theme.colors.mediumGray};
     background: ${theme.colors.white};
     transition: all 300ms ease-in-out;
+
     > ${SectionContainer} {
       padding-top: 0;
       padding-bottom: 0;
     }
+
     & ${Heading} {
       margin-top: 0;
       margin-bottom: 0;
     }
+
     @media ${theme.media.lteMedium} {
       height: 100vh;
       visibility: hidden;
       opacity: 0;
       ${visible && menuVisible()}
+
       > ${SectionContainer} {
         display: grid;
         grid-template-columns: 1fr;
@@ -43,6 +47,7 @@ export const Container = styled.div<MenuVisible>`
         align-items: center;
         overflow-y: auto;
       }
+
       & ${Heading} {
         padding-bottom: ${theme.spacings.large};
         display: flex;
@@ -57,6 +62,7 @@ export const MenuContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     @media ${theme.media.lteMedium} {
       display: block;
       text-align: center;
@@ -78,11 +84,13 @@ export const Button = styled.button<MenuVisible>`
     border: none;
     display: none;
     pointer-events: ${visible ? 'none' : 'all'};
+
     @media ${theme.media.lteMedium} {
       display: flex;
       align-items: center;
       justify-content: center;
     }
+
     > svg {
       width: 2.5rem;
       height: 2.5rem;

@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+
 import Home, { HomeProps } from '../templates/Home';
 import { Loading } from '../templates/Loading';
 import { loadPages } from '../api/load-pages';
@@ -15,8 +16,16 @@ export default function Page({ data }: HomeProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  // const paths = (await loadPages()).map((page) => {
+  //   return {
+  //     params: {
+  //       slug: page.slug,
+  //     },
+  //   };
+  // });
+
   return {
-    paths: [{ params: { slug: 'landing-page' } }],
+    paths: [{ params: { slug: 'udemy' } }],
     fallback: true,
   };
 };
@@ -40,6 +49,6 @@ export const getStaticProps: GetStaticProps<HomeProps> = async (ctx) => {
     props: {
       data,
     },
-    revalidate: 30,
+    revalidate: 1,
   };
 };

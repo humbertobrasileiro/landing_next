@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import styled, { css, DefaultTheme } from 'styled-components';
 
 type Background = {

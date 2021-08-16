@@ -1,7 +1,7 @@
-import * as Styled from './styles';
-import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
+import { SectionBackground } from '../SectionBackground';
 import { TextComponent } from '../TextComponent';
+import * as Styled from './styles';
 
 export type GridImageElementProps = {
   altText: string;
@@ -9,10 +9,10 @@ export type GridImageElementProps = {
 };
 
 export type GridImageProps = {
+  background?: boolean;
   title: string;
   description: string;
-  grid: GridImageElementProps[];
-  background?: boolean;
+  grid?: GridImageElementProps[];
   sectionId?: string;
   component?: string;
 };

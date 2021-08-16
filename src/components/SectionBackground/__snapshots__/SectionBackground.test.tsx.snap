@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SectionBackground /> Should render with background dark 1`] = `
+exports[`<SectionBackground /> should render with background dark 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
@@ -40,7 +40,7 @@ exports[`<SectionBackground /> Should render with background dark 1`] = `
 </div>
 `;
 
-exports[`<SectionBackground /> Should render with background light 1`] = `
+exports[`<SectionBackground /> should render with background light 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;

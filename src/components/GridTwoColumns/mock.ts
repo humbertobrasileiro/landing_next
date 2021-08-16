@@ -1,11 +1,7 @@
 import { GridTwoColumnsProps } from '.';
 
 export default {
-  title: 'Grid Two Column',
-  text: `Lorem ipsum dolor sit amet consectetur
-  adipisicing elit. Quos cum commodi itaque exercitationem
-  quisquam ullam id odio, iste minus aliquam deserunt
-  consequuntur nam dignissimos! At voluptates animi
-  laudantium? Doloremque, in!`,
+  title: 'Grid two columns',
+  text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam culpa eveniet doloribus harum? Ipsam, a necessitatibus? Sequi sunt accusantium quod, animi iure a, aliquid dolor ea vel magni dolore?`,
   srcImg: 'assets/images/javascript.svg',
 } as GridTwoColumnsProps;

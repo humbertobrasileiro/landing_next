@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
-import { Title as HaeadingContainer } from '../Heading/styles';
+import { Title as HeadingContainer } from '../Heading/styles';
 import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
@@ -27,12 +26,12 @@ export const Grid = styled.div`
 `;
 
 export const GridElement = styled.div`
-  ${HaeadingContainer} {
+  ${HeadingContainer} {
     position: relative;
     left: 5rem;
   }
 
-  ${HaeadingContainer}::before {
+  ${HeadingContainer}::before {
     counter-increment: grid-counter;
     content: counter(grid-counter);
     position: absolute;

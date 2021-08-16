@@ -1,14 +1,15 @@
-import { GridContent } from '.';
 import { renderTheme } from '../../styles/render-theme';
+import { GridContent } from '.';
+
 import mock from './mock';
 
 describe('<GridContent />', () => {
-  it('Should render grid content', () => {
+  it('should render grid content', () => {
     const { container } = renderTheme(<GridContent {...mock} />);
     expect(container).toMatchSnapshot();
   });
 
-  it('Should render grid content background', () => {
+  it('should render grid content', () => {
     const { container } = renderTheme(
       <GridContent {...mock} background={undefined} />,
     );

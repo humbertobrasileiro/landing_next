@@ -9,16 +9,16 @@ export default {
       <div>
         <h1>SectionBackground</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quia,
-          velit modi aut illo harum dolore facilis inventore enim cupiditate sed
-          quisquam explicabo eius unde dicta deleniti dignissimos. Ipsa,
-          eveniet!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+          doloribus debitis minima nam beatae alias eius, mollitia asperiores
+          animi dolorem esse, aperiam nesciunt praesentium. Labore vel optio
+          quaerat aspernatur expedita!
         </p>
       </div>
     ),
   },
   argTypes: {
-    children: { type: 'string' },
+    children: { type: '' },
   },
 } as Meta;
 

@@ -5,10 +5,11 @@ export default {
   title: 'TextComponent',
   component: TextComponent,
   args: {
-    children: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Quibusdam nihil cupiditate nobis! Natus ipsa sunt nulla, molestiae
-    quis amet, hic molestias voluptatem nobis, saepe aspernatur dignissimos.
-    Nulla ipsa odit quibusdam.`,
+    children: `
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ullam placeat unde harum. Facilis, quasi delectus
+    obcaecati perferendis nobis alias ad aspernatur quod neque,
+    corporis, aperiam numquam. Sint consequatur omnis voluptate.`,
   },
   argTypes: {
     children: { type: 'string' },

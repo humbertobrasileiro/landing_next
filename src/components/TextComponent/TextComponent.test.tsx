@@ -1,17 +1,25 @@
-import { screen } from '@testing-library/dom';
-import { TextComponent } from '.';
+import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
+import { TextComponent } from '.';
 
 describe('<TextComponent />', () => {
-  it('Should render a text', () => {
+  it('should render a text', () => {
     renderTheme(<TextComponent>Children</TextComponent>);
-
     expect(screen.getByText('Children')).toBeInTheDocument();
   });
 
-  it('Should match snapshot', () => {
+  it('should match snapshot', () => {
     const { container } = renderTheme(<TextComponent>Children</TextComponent>);
+    expect(container.firstChild).toMatchInlineSnapshot(`
+      .c0 {
+        font-size: 2.4rem;
+      }
 
-    expect(container.firstChild).toMatchSnapshot();
+      <div
+        class="c0"
+      >
+        Children
+      </div>
+    `);
   });
 });

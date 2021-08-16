@@ -12,11 +12,11 @@ export const Container = styled.footer`
       text-decoration: none;
     }
 
-    & > ${TextComponent} {
+    & ${TextComponent} {
       font-size: ${theme.font.sizes.small};
     }
 
-    & > ${SectionContainer} {
+    & ${SectionContainer} {
       padding-top: 0;
       padding-bottom: 0;
     }

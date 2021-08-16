@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridContent /> Should render grid content 1`] = `
+exports[`<GridContent /> should render grid content 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -91,11 +91,13 @@ exports[`<GridContent /> Should render grid content 1`] = `
                in turpis pulvinar facilisis. Ut felis.
             </p>
             
+
   
             <h2>
               Header Level 2
             </h2>
             
+
   
             <ol>
               
@@ -112,6 +114,7 @@ exports[`<GridContent /> Should render grid content 1`] = `
   
             </ol>
             
+
   
             <blockquote>
               <p>
@@ -119,11 +122,13 @@ exports[`<GridContent /> Should render grid content 1`] = `
               </p>
             </blockquote>
             
+
   
             <h3>
               Header Level 3
             </h3>
             
+
   
             <ul>
               
@@ -140,6 +145,7 @@ exports[`<GridContent /> Should render grid content 1`] = `
   
             </ul>
             
+
   
             <pre>
               <code>
@@ -160,7 +166,7 @@ exports[`<GridContent /> Should render grid content 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> Should render grid content background 1`] = `
+exports[`<GridContent /> should render grid content 2`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -251,11 +257,13 @@ exports[`<GridContent /> Should render grid content background 1`] = `
                in turpis pulvinar facilisis. Ut felis.
             </p>
             
+
   
             <h2>
               Header Level 2
             </h2>
             
+
   
             <ol>
               
@@ -272,6 +280,7 @@ exports[`<GridContent /> Should render grid content background 1`] = `
   
             </ol>
             
+
   
             <blockquote>
               <p>
@@ -279,11 +288,13 @@ exports[`<GridContent /> Should render grid content background 1`] = `
               </p>
             </blockquote>
             
+
   
             <h3>
               Header Level 3
             </h3>
             
+
   
             <ul>
               
@@ -300,6 +311,7 @@ exports[`<GridContent /> Should render grid content background 1`] = `
   
             </ul>
             
+
   
             <pre>
               <code>

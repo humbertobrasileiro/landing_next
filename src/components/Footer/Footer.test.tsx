@@ -29,11 +29,11 @@ describe('<Footer />', () => {
         text-decoration: none;
       }
 
-      .c0 > .c3 {
+      .c0 .c3 {
         font-size: 1.6rem;
       }
 
-      .c0 > .c1 {
+      .c0 .c1 {
         padding-top: 0;
         padding-bottom: 0;
       }
