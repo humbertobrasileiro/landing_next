@@ -22,17 +22,19 @@ export const mapMenu = (menu = {} as any): PageData['menu'] => {
 };
 
 export const mapMenuLinks = (links = [] as any[]): MenuLinkProps[] => {
-  return links.map((item: any): MenuLinkProps => {
-    const {
-      open_in_new_tab: newTab = false,
-      link_text: children = '',
-      url: link = '',
-    } = item;
+  return links.map(
+    (item: any): MenuLinkProps => {
+      const {
+        open_in_new_tab: newTab = false,
+        link_text: children = '',
+        url: link = '',
+      } = item;
 
-    return {
-      newTab,
-      children,
-      link,
-    };
-  });
+      return {
+        newTab,
+        children,
+        link,
+      };
+    },
+  );
 };
