@@ -1,11 +1,11 @@
 [build]
-command = "npm run build:demo"
-functions = "demo/netlify/functions"
-publish = "demo/out"
+command = "npm run build"
+functions = "netlify/functions"
+publish = "out"
 base="."
 
 [dev]
-command="npm run dev:demo"
+command="npm run dev"
 
 [[plugins]]
 package="."
